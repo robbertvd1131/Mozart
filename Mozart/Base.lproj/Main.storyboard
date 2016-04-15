@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rm0-IW-GhS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Notesheet-->
+        <scene sceneID="x48-S3-etj">
+            <objects>
+                <viewController id="WU9-UX-MWY" customClass="notebalkcontroller" customModule="Mozart" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g4t-gK-KbB"/>
+                        <viewControllerLayoutGuide type="bottom" id="mJT-mD-j9Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PnJ-8g-oQL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="partituur.png" translatesAutoresizingMaskIntoConstraints="NO" id="fsH-F3-pZC">
+                                <rect key="frame" x="3" y="-5" width="712" height="382"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="DIg-u5-I2Z">
+                                <rect key="frame" x="11" y="157" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ohi-UR-A0d">
+                                <rect key="frame" x="66" y="157" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="R7e-Kz-s09">
+                                <rect key="frame" x="121" y="157" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cxh-La-tZ2">
+                                <rect key="frame" x="177" y="157" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="18v-Px-8zb">
+                                <rect key="frame" x="233" y="157" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="QJp-Rm-3e5">
+                                <rect key="frame" x="276" y="157" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="fLL-yB-aLj">
+                                <rect key="frame" x="332" y="158" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="0tm-tO-GUT">
+                                <rect key="frame" x="388" y="158" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="qeU-x4-ETM">
+                                <rect key="frame" x="444" y="159" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="xV6-Pt-i5L">
+                                <rect key="frame" x="500" y="159" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="yaa-Ra-Ot6">
+                                <rect key="frame" x="556" y="159" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="RYn-KQ-wk7">
+                                <rect key="frame" x="65" y="40" width="48" height="51"/>
+                                <accessibility key="accessibilityConfiguration" identifier="s1">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="8h3-4t-iKa">
+                                <rect key="frame" x="177" y="40" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="iEh-qK-Upg">
+                                <rect key="frame" x="233" y="40" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="hxM-qd-kV5">
+                                <rect key="frame" x="289" y="40" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="F8J-bw-y1f">
+                                <rect key="frame" x="335" y="40" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zed-YU-Wt4">
+                                <rect key="frame" x="391" y="40" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="1wP-iK-x8A">
+                                <rect key="frame" x="447" y="40" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="4vN-hC-QKC">
+                                <rect key="frame" x="503" y="41" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="hSS-KS-GkA">
+                                <rect key="frame" x="559" y="42" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="kfU-xM-7iY">
+                                <rect key="frame" x="11" y="285" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="N4Z-OJ-3EX">
+                                <rect key="frame" x="65" y="285" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="hzQ-L1-owe">
+                                <rect key="frame" x="121" y="285" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="z15-lM-Roa">
+                                <rect key="frame" x="177" y="286" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="gLx-hB-hd8">
+                                <rect key="frame" x="233" y="287" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="zqb-C5-UNC">
+                                <rect key="frame" x="289" y="287" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="RDP-Lp-0jE">
+                                <rect key="frame" x="335" y="287" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbW-8j-Vke">
+                                <rect key="frame" x="388" y="287" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hli-jm-Yfx">
+                                <rect key="frame" x="444" y="288" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Jo-Yt-PCB">
+                                <rect key="frame" x="500" y="287" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="dI4-Xo-Xz4">
+                                <rect key="frame" x="556" y="287" width="48" height="51"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noot.png" translatesAutoresizingMaskIntoConstraints="NO" id="to0-3z-XgB">
+                                <rect key="frame" x="121" y="40" width="48" height="51"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Notesheet" id="zsC-PX-4Ce"/>
+                    <connections>
+                        <outlet property="S19" destination="0tm-tO-GUT" id="TV7-dW-Hg9"/>
+                        <outlet property="S21" destination="xV6-Pt-i5L" id="L5Q-10-V9N"/>
+                        <outlet property="S22" destination="yaa-Ra-Ot6" id="xQP-td-jRD"/>
+                        <outlet property="S24" destination="kfU-xM-7iY" id="npH-O3-IfH"/>
+                        <outlet property="S25" destination="N4Z-OJ-3EX" id="rly-Eu-Nn9"/>
+                        <outlet property="S26" destination="hzQ-L1-owe" id="4h0-gU-dx5"/>
+                        <outlet property="S27" destination="z15-lM-Roa" id="YLs-kr-cHe"/>
+                        <outlet property="S28" destination="gLx-hB-hd8" id="Aoo-R0-oSg"/>
+                        <outlet property="S29" destination="zqb-C5-UNC" id="BOa-wj-zWG"/>
+                        <outlet property="S30" destination="RDP-Lp-0jE" id="DKK-b7-et7"/>
+                        <outlet property="S31" destination="gbW-8j-Vke" id="AYy-LF-zKl"/>
+                        <outlet property="S32" destination="Hli-jm-Yfx" id="tqR-W2-5l2"/>
+                        <outlet property="S33" destination="9Jo-Yt-PCB" id="z1W-UV-AXN"/>
+                        <outlet property="S34" destination="dI4-Xo-Xz4" id="Wst-kk-HbM"/>
+                        <outlet property="s1" destination="RYn-KQ-wk7" id="oFP-MA-zNT"/>
+                        <outlet property="s10" destination="hSS-KS-GkA" id="q8W-SK-SkF"/>
+                        <outlet property="s12" destination="DIg-u5-I2Z" id="Ey7-H8-7lO"/>
+                        <outlet property="s13" destination="Ohi-UR-A0d" id="bSw-W1-Z0W"/>
+                        <outlet property="s14" destination="R7e-Kz-s09" id="VBh-o6-rdr"/>
+                        <outlet property="s15" destination="Cxh-La-tZ2" id="I5f-PB-hTM"/>
+                        <outlet property="s16" destination="18v-Px-8zb" id="UDy-6m-3Ft"/>
+                        <outlet property="s17" destination="QJp-Rm-3e5" id="wMX-gG-6dh"/>
+                        <outlet property="s18" destination="fLL-yB-aLj" id="PJS-j3-siW"/>
+                        <outlet property="s2" destination="to0-3z-XgB" id="857-zc-EQk"/>
+                        <outlet property="s20" destination="qeU-x4-ETM" id="Oic-91-PrC"/>
+                        <outlet property="s3" destination="8h3-4t-iKa" id="9o7-5f-4qU"/>
+                        <outlet property="s4" destination="iEh-qK-Upg" id="lxJ-oG-jl3"/>
+                        <outlet property="s5" destination="hxM-qd-kV5" id="4af-4Y-PbL"/>
+                        <outlet property="s6" destination="F8J-bw-y1f" id="TCC-2K-3CY"/>
+                        <outlet property="s7" destination="Zed-YU-Wt4" id="7eF-zz-QE5"/>
+                        <outlet property="s8" destination="1wP-iK-x8A" id="sKG-5A-Fnm"/>
+                        <outlet property="s9" destination="4vN-hC-QKC" id="1mm-Pa-QCW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vfe-oS-uNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10" y="535"/>
+        </scene>
+        <!--Keyboard-->
+        <scene sceneID="Rqs-wT-vkR">
+            <objects>
+                <viewController id="GPo-y0-He6" customClass="ViewController" customModule="Mozart" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l7t-La-dyu"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Vc-rB-rL0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8fS-5f-rq8">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d.png" translatesAutoresizingMaskIntoConstraints="NO" id="YIO-xX-KAH">
+                                <rect key="frame" x="103" y="-13" width="105" height="381"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="e.png" translatesAutoresizingMaskIntoConstraints="NO" id="QmU-fU-S4Z">
+                                <rect key="frame" x="208" y="-7" width="105" height="375"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="f.png" translatesAutoresizingMaskIntoConstraints="NO" id="nxo-sa-r3I">
+                                <rect key="frame" x="313" y="-10" width="105" height="378"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="g.png" translatesAutoresizingMaskIntoConstraints="NO" id="7cq-b0-K1A">
+                                <rect key="frame" x="418" y="-5" width="105" height="375"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a.png" translatesAutoresizingMaskIntoConstraints="NO" id="b19-F5-MSO">
+                                <rect key="frame" x="523" y="-8" width="105" height="378"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZPg-Lh-Ths">
+                                <rect key="frame" x="627" y="-5" width="105" height="364"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6H-tH-qyi">
+                                <rect key="frame" x="-3" y="192" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.png" highlightedImage="c.png" translatesAutoresizingMaskIntoConstraints="NO" id="tps-YP-idw">
+                                <rect key="frame" x="1" y="-13" width="105" height="381"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="y6H-tH-qyi"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Keyboard" id="GL1-t1-Ejp"/>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="A" destination="b19-F5-MSO" id="fno-V0-hHI"/>
+                        <outlet property="B" destination="ZPg-Lh-Ths" id="JsQ-Bb-Gff"/>
+                        <outlet property="C" destination="tps-YP-idw" id="MxB-0k-HD4"/>
+                        <outlet property="D" destination="YIO-xX-KAH" id="8Uz-4O-tgG"/>
+                        <outlet property="E" destination="QmU-fU-S4Z" id="UOh-m8-rmY"/>
+                        <outlet property="F" destination="nxo-sa-r3I" id="SuS-6J-1v9"/>
+                        <outlet property="G" destination="7cq-b0-K1A" id="V6h-2F-0A2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mtu-Uu-eSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3" y="-243"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="JNH-Lg-pmi">
+            <objects>
+                <tabBarController id="rm0-IW-GhS" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Ofr-3a-rHV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="GPo-y0-He6" kind="relationship" relationship="viewControllers" id="rVd-ts-VNX"/>
+                        <segue destination="WU9-UX-MWY" kind="relationship" relationship="viewControllers" id="Mzj-cU-h9B"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mIg-gg-eGS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-817" y="119"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="a.png" width="31" height="152"/>
+        <image name="b.png" width="31" height="152"/>
+        <image name="c.png" width="31" height="152"/>
+        <image name="d.png" width="33" height="152"/>
+        <image name="e.png" width="31" height="152"/>
+        <image name="f.png" width="31" height="152"/>
+        <image name="g.png" width="31" height="152"/>
+        <image name="noot.png" width="468" height="468"/>
+        <image name="partituur.png" width="700" height="400"/>
+    </resources>
+</document>
