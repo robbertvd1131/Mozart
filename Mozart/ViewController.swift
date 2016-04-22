@@ -37,6 +37,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let value = UIInterfaceOrientation.LandscapeLeft.rawValue
+        UIDevice.currentDevice().setValue(value, forKey: "orientation")
         // Do any additional setup after loading the view, typically from a nib.
         C.image = UIImage(named: "C")
         C.userInteractionEnabled = true

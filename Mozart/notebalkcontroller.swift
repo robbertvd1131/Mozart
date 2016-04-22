@@ -92,6 +92,8 @@ class notebalkcontroller: UIViewController {
         
         var notes:String = "b"
         var i = 0
+        //let value = UIInterfaceOrientation.LandscapeLeft.rawValue
+        //UIDevice.currentDevice().setValue(value, forKey: "orientation")
         sleep(1)
         while i <= collectionOfViews.count - 1 {
         print(self.randomnote[Int(i)])
@@ -141,12 +143,16 @@ class notebalkcontroller: UIViewController {
         }
            i = i + 1
         }
+
     }
  
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let value = UIInterfaceOrientation.LandscapeLeft.rawValue
+        UIDevice.currentDevice().setValue(value, forKey: "orientation")
+        
         createmapping()
         jsonload()
         
@@ -196,8 +202,11 @@ class notebalkcontroller: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        //loadnotes()
+        //loadnotes()\
+        
         self.loadnotes()
+
+        
     }
 
    
